@@ -1,3 +1,13 @@
 ---
 - name: restart kibana
   service: name=kibana state=restarted
+
+- name: Stop kibana
+  service:
+    name: kibana
+    state: stopped
+
+- name: Start kibana
+  service:
+    name: kibana
+    state: started
