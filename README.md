@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/geerlingguy/ansible-role-kibana.svg?branch=master)](https://travis-ci.org/geerlingguy/ansible-role-kibana)
 
+![Lint Ansible Roles](https://github.com/tenantcloud/ansible-role-kibana/workflows/Lint%20Ansible%20Roles/badge.svg)
+
 An Ansible Role that installs Kibana on RedHat/CentOS or Debian/Ubuntu.
 
 ## Requirements
